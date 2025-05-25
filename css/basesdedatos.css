@@ -147,8 +147,8 @@ footer{
 }
 
 .cardr{
-  width: 1000px;
-  gap: 100px;
+  width: 80%;
+  gap: 20%;
   background-color: #8a7b58cf;
 }
 
@@ -231,3 +231,5 @@ h2{
   margin: 20px;
   gap: 40px;
 }
+
+
