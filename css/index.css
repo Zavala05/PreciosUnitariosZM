@@ -33,7 +33,7 @@ nav.navbar {
         left: 0;
         width: 100%;
         z-index: 1030; /* Asegura que se superponga sobre otros elementos */
-        background-color: #867d5dea;
+        background-color: #6c6b69ea;
         padding: 1rem 2rem;
         box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         border-bottom: 1px solid #eaeaea;
@@ -125,8 +125,8 @@ nav.navbar {
 
 
 .logo{
-    width: 70px;
-    border-radius:50%;
+    width: 90px;
+    border-radius:30%;
     margin: 0 auto;
     display: block;
     margin-right: 2rem ;
@@ -182,11 +182,29 @@ nav.navbar {
   border-radius: 10px;
 }
 
+#nosotros p{
+  font-size: 13px;
+}
+
+#nosotros h3{
+  font-size: 22px;
+  
+}
+
+
+#Servicios h3{
+  font-size: 22px;
+  
+}
+
+
 
 
 #nosotros{
   margin: 2rem;
   text-align: center;
+  margin-top: 5rem;
+ 
 
   
   
@@ -196,6 +214,16 @@ nav.navbar {
   margin: 2rem;
   text-align: center;
 }
+
+#Servicios p{
+  font-size: 13px;
+}
+
+#Servicios ul li{
+  font-size: 13px;;
+}
+
+
 
 #tarjetas img{
   margin: 2px;
@@ -214,7 +242,7 @@ nav.navbar {
 }
 
 footer{
-  background-color: #8a7b58cf;
+  background-color: #6c6b69ea;
   justify-content: center;
   text-align: center;
   position: relative;
@@ -408,10 +436,10 @@ i:hover{
 }
 
 
-#redesp .card {
+.cardr {
   width: fit-content;
   height: fit-content;
-  background-color: #8a7b58cf;
+  background-color: rgb(238, 238, 238);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -482,37 +510,138 @@ i:hover{
 }
 
 
-#redesp{
+footer{
+  background-color:  #6c6b69ea;
+  text-align: center;
+  position: relative;
+    bottom: 0;
+    width: 100%;
+
+ 
+ 
+}
+
+#redes{
   display: flex;
   justify-content: center;
-  margin-top: 9px;
-  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+  margin: 20px;
+
 }
 
-#redesp .card{
-  flex-direction: row;
-  margin: 10px;
-  width: 1000px;
-  gap: 100px;
+.cardr{
+  width: 80%;
+  gap: 20%;
+  background-color:  #6c6b69ea;
 }
-
-
-
-
-
-
-
-
-
-
-
 
 
 /* Adaptabilidad para móviles */
-@media (max-width: 768px) {
+@media (max-width: 980px) {
   .parent {
     flex-direction: column; /* Cambia a una sola columna en pantallas pequeñas */
   }
+
+  .div2, .div1{
+   margin: none;
+  }
 }
+
+
+@media (max-width: 700px) {
+    #carrusel{
+      margin-top: 5rem;
+    display: flex;
+    width: 400px;
+    height: 100%;
+      }
+    
+      #carrusel img{
+    width: 0px;
+       flex-grow: 1;
+  object-fit: cover;
+  opacity: 0.8;
+  transition: all 0.5s ease;
+}
+
+#carrusel img:hover{
+  width: 120px;
+  opacity: 1;
+  filter: contrast(120%);
+}
+
+#tarjetas .container{
+  display: none;
+}
+
+
+
+
+
+
+}
+
+
+
+@media (max-width: 438px) {
+    #carrusel{
+      margin-top: 5rem;
+    display: flex;
+    width: 300px;
+    height: 100%;
+      }
+    
+      #carrusel img{
+    width: 0px;
+       flex-grow: 1;
+  object-fit: cover;
+  opacity: 0.8;
+  transition: all 0.5s ease;
+}
+
+#carrusel img:hover{
+  width: 120px;
+  opacity: 1;
+  filter: contrast(120%);
+}
+}
+
+@media (max-width: 348px) {
+    #carrusel{
+      margin-top: 5rem;
+    display: flex;
+    width: 250px;
+    height: 100%;
+      }
+    
+      #carrusel img{
+    width: 0px;
+       flex-grow: 1;
+  object-fit: cover;
+  opacity: 0.8;
+  transition: all 0.5s ease;
+}
+
+#carrusel img:hover{
+  width: 120px;
+  opacity: 1;
+  filter: contrast(120%);
+}
+}
+
+
+
+@media (max-width: 1024px) {
+    .parent{
+      display: flex;
+      gap:9rem;
+    }
+}
+
+
+
+
+ 
 
 
