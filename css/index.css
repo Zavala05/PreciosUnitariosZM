@@ -607,10 +607,12 @@ footer{
 }
 
 
-#contacto{
-  margin-left: 25px;
-  margin-right: 25px;
-  margin-top: 2px;
+#contacto #formulario{
+  margin-right: 20px;
+  margin-left: 20px;
+  justify-content: center;
+  text-align: center;
+  
 }
 }
 
