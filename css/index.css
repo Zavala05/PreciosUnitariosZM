@@ -605,6 +605,11 @@ footer{
   opacity: 1;
   filter: contrast(120%);
 }
+
+
+#contacto{
+  margin: 25px;
+}
 }
 
 @media (max-width: 348px) {
