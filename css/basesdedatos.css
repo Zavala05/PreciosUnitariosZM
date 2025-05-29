@@ -12,10 +12,10 @@ header{
 
 header img {
   height: 70px;
-  width: 70px;
+  width: 90px;
    margin: 0 auto;
     display: block;
-    border-radius: 50%;
+    border-radius: 30%;
     margin-right: 2rem ;
     margin-left: 2rem;
   
@@ -30,7 +30,7 @@ header img {
 
 
 .navbar{
-   background-color: #8a7b58cf;
+   background-color: #6c6b69ea;
    position: relative;
     z-index: 1000;
     overflow: visible;
@@ -127,7 +127,7 @@ header img {
 
 
 footer{
-  background-color: #8a7b58cf;
+  background-color: #6c6b69ea;
   text-align: center;
   position: relative;
     bottom: 0;
@@ -149,12 +149,12 @@ footer{
 .cardr{
   width: 80%;
   gap: 20%;
-  background-color: #8a7b58cf;
+  background-color:#6c6b69ea;
 }
 
 h2{
   margin-top: 1000px;
-  background-color: #8a7b5867;
+  background-color: #46454067;
   text-align: center;
   margin: 20px;
   border-radius: 2rem;
@@ -233,3 +233,21 @@ h2{
 }
 
 
+footer{
+    
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 200px;
+}
+
+
+@media (max-width: 320px){
+    footer{
+    
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 220px;
+}
+}
