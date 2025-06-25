@@ -661,6 +661,16 @@ footer{
 
 
 
+@media (max-height: 272px)
+{
+  #tarjeta2{
+    justify-content: center;
+
+    margin: 20px;
+
+  }
+}
+
 
  
 
