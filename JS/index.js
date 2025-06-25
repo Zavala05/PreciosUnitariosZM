@@ -5,9 +5,13 @@
 
 const sections = document.querySelectorAll('.section');
 
+
+
+  
+
       // Configuración del observer: el callback se disparará cuando el 50% del elemento sea visible
       const observerOptions = {
-        threshold: 0.5
+        threshold: 0.2
       };
 
       const observer = new IntersectionObserver((entries) => {
