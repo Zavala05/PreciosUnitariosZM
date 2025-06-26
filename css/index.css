@@ -601,6 +601,19 @@ footer{
   
 }
 
+#tarjeta2 a .card{
+  height: 200px;
+  width: 260px;
+}
+
+#tarjeta2 a .card img{
+  height: 200px;
+  width: 260px;
+}
+
+
+
+
 
 
 
@@ -712,4 +725,38 @@ footer{
 }
 
 }
+
+
+#formulario .form-label{
+  font-size: 25px;
+} 
+
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 8px;
+}
+    
+.div1 {
+    grid-row: span 3 / span 3;
+}
+
+.div2 {
+    grid-row: span 3 / span 3;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.parent .div2 p{
+  margin-top: 20px;
+}
+
+.parent .div2 h2{
+  
+}
+
+
 
