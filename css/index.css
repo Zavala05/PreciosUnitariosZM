@@ -732,31 +732,30 @@ footer{
 } 
 
 
-.parent {
+.parent2 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, 1fr);
-    gap: 8px;
+  text-align: center;
+  font-size: 15px;
+ 
+   
 }
     
-.div1 {
+.div1c {
     grid-row: span 3 / span 3;
-}
-
-.div2 {
-    grid-row: span 3 / span 3;
-    justify-content: center;
-    text-align: center;
     
 }
 
-.parent .div2 p{
-  margin-top: 20px;
+.div2c {
+    grid-row: span 3 / span 3;
+    margin-top: 50px;
+    margin-right: 10px;
+
+    
 }
 
-.parent .div2 h2{
-  
-}
+
 
 
 
