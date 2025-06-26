@@ -256,3 +256,9 @@ footer{
 footer{
   margin-top: 100px;
 }
+
+
+#tarjetas .card{
+  height: 300px;
+  width: 300px;
+}
