@@ -622,6 +622,7 @@ footer{
     
       #carrusel img{
     width: 0px;
+    height: 180px;
        flex-grow: 1;
   object-fit: cover;
   opacity: 0.8;
@@ -674,6 +675,41 @@ footer{
 }
 
 
- 
+#tarjeta2 .card {
+  height: 400px;
+  width: 400px;
+}
 
+
+#tarjeta2 {
+  gap: 70px;
+}
+ 
+#tarjeta2 .card img{
+  height: 300px;
+  width: 400px;
+}
+
+#tarjeta2 a{
+  text-decoration: none;
+}
+
+
+@media (max-width: 377px){
+    #tarjeta2 .card img{
+  height: 200px;
+  width: 300px;
+}
+
+#tarjeta2 .card {
+  height: 200px;
+  width: 300px;
+}
+
+
+#tarjeta2{
+  margin: 20px;
+}
+
+}
 

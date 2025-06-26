@@ -262,3 +262,12 @@ footer{
   height: 300px;
   width: 300px;
 }
+
+
+.card__titleM{
+  margin: 5px;
+  font-size: medium;
+  justify-content: center;
+  text-align: center;
+
+}
