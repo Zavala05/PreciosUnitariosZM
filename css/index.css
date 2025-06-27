@@ -601,19 +601,6 @@ footer{
   
 }
 
-#tarjeta2 a .card{
-  height: 200px;
-  width: 260px;
-}
-
-#tarjeta2 a .card img{
-  height: 200px;
-  width: 260px;
-}
-
-
-
-
 
 
 
@@ -726,36 +713,37 @@ footer{
 
 }
 
+#ultimaparte{
+  justify-content: center;
+  display: flex;
+  margin-top: 3rem;
+  
+}
 
-#formulario .form-label{
-  font-size: 25px;
-} 
+#contacto{
+  flex: 1;
+  margin: 10px;
+  border-right: 2px solid #6c6b69ea;
+  font-size: 20px;
+  padding: 3.7rem;
+}
 
-
-.parent2 {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(3, 1fr);
+#experiencia{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+ padding: 3.7rem;
   text-align: center;
+  gap: 15px;
+  border-left: 2px solid #6c6b69ea;
+  margin: 10px;
   font-size: 15px;
- 
-   
-}
-    
-.div1c {
-    grid-row: span 3 / span 3;
-    
-}
-
-.div2c {
-    grid-row: span 3 / span 3;
-    margin-top: 50px;
-    margin-right: 10px;
-
-    
 }
 
 
-
-
-
+footer{
+  margin-top: 3rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 2rem;
+}
