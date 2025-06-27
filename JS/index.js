@@ -7,6 +7,7 @@ const sections = document.querySelectorAll('.section');
 
 
 
+
   
 
       // Configuración del observer: el callback se disparará cuando el 50% del elemento sea visible
@@ -29,6 +30,8 @@ const sections = document.querySelectorAll('.section');
       sections.forEach(section => {
         observer.observe(section);
       });
+
+     
       
 
 

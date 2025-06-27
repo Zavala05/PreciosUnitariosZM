@@ -723,19 +723,23 @@ footer{
 #contacto{
   flex: 1;
   margin: 10px;
-  border-right: 2px solid #6c6b69ea;
+  border-right: 2px solid #6c6b695f;
   font-size: 20px;
-  padding: 3.7rem;
+  padding: 3rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+
 }
 
 #experiencia{
   flex: 1;
   display: flex;
   flex-direction: column;
- padding: 3.7rem;
+ padding: 3rem;
   text-align: center;
   gap: 15px;
-  border-left: 2px solid #6c6b69ea;
+  border-left: 2px solid #6c6b694c;
   margin: 10px;
   font-size: 15px;
 }
@@ -746,4 +750,45 @@ footer{
   padding-left: 2rem;
   padding-right: 2rem;
   padding-top: 2rem;
+}
+
+
+@media (max-width: 430px){
+  #ultimaparte{
+    display: flex;
+    flex-wrap: wrap;
+    
+  }
+
+  #ultimaparte #experiencia{
+    font-size: 12px;
+    border: 2px solid #6c6b694c;
+    margin: 10px;
+    
+  }
+
+  #ultimaparte #contacto{
+    border: 2px solid #6c6b695f ;
+
+}
+
+  #tarjeta2 .card{
+    height: 200px ;
+    width: 200px;
+  }
+
+  #tarjeta2 .card img{
+    height: 200px;
+    width: 200px;
+    border-radius: 8px;
+  }
+
+
+  #redes .cardr a{
+    
+    height: 30px;
+    
+  }
+
+
 }
