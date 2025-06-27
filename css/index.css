@@ -753,7 +753,7 @@ footer{
 }
 
 
-@media (max-width: 430px){
+@media (max-width: 730px){
   #ultimaparte{
     display: flex;
     flex-wrap: wrap;
