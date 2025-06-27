@@ -241,9 +241,12 @@ footer{
 }
 }
 
-footer{
-  margin-top: 3rem;
-  padding-left: 2rem;
-  padding-right: 2rem;
-  padding-top: 2rem;
+.nav-item a{
+  color: white;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.nav-item .dropdown-menu a{
+  color: black;
 }

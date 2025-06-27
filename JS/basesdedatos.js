@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
-    const elements = document.querySelectorAll('#basesdedatos h2, .card, footer');
+    const elements = document.querySelectorAll('#basesdedatos h2, .card, footer, .section');
     let ticking = false;
 
     elements.forEach(element => {

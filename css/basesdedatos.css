@@ -48,6 +48,7 @@ header img {
   border-radius: 15px;
    transition: all 1.3s ease;
    margin: 9px;
+   
 }
 
 
@@ -271,4 +272,56 @@ footer{
   text-align: center;
 
 }
+
+#prueba{
+  justify-content: center;
+  text-align: center;
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 6rem;
+ 
+  
+  
+}
+
+#boton{
+  text-decoration: none;
+  background-color: #615d5da2;
+  padding: 10px;
+  border-radius: 20px;
+  color: white;
+  margin-top: 20px;
+  
+  
+}
+
+#boton:hover{
+  background-color: #edededf7;
+  transition: all 0.3s ease;
+  color: black;
+}
+
+#boto{
+  justify-content: center;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.nav-item a{
+  color: white;
+}
+
+.nav-item .dropdown-menu a{
+  color: black;
+}
+
+
+
+@media (max-width: 700px){
+  .prueba p{
+    margin: 9rem;
+  }
+}
+
 
