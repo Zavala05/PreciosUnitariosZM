@@ -62,7 +62,7 @@ header img{
 }
 /* twitter*/
 .containerTwo:hover {
-  background-color: #00acee;
+  background-color: #1877F2;
   transition-duration: .3s;
 }
 /* linkdin*/
@@ -249,4 +249,21 @@ footer{
 
 .nav-item .dropdown-menu a{
   color: black;
+}
+
+
+@media (max-width: 500px){
+ 
+  .containerOne{
+    border-radius: 80px;
+  }
+  .containerTwo{
+    border-radius: 80px;
+  }
+  .containerThree{
+    border-radius: 80px;
+  }
+  .containerFour{
+    border-radius: 80px;
+  }
 }
